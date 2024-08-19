@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Laufey - Artista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #d393c8;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .playlist-link {
+            display: block;
+            margin-top: 20px;
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .playlist-link:hover {
+            background: #555;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Donato Gosta de Laufey</h1>
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#imagem">Imagem</a>
+                <a href="#musicas">Músicas</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main">
+            <section id="sobre" class="section">
+                <h2>Sobre Laufey</h2>
+                <p>Laufey é uma cantora e compositora de origem islandesa conhecida por suas melodias suaves e letras introspectivas. Com uma mistura única de jazz, pop e folk, ela tem conquistado uma base de fãs crescente ao redor do mundo.</p>
+                <p>Seu estilo musical é caracterizado por uma combinação de vocais delicados e arranjos sofisticados, que criam uma atmosfera íntima e envolvente. Laufey começou sua carreira musical em 2020 e desde então tem lançado uma série de singles e álbuns aclamados pela crítica.</p>
+            </section>
+
+            <section id="imagem" class="section">
+                <h2>Imagem da Artista</h2>
+                <div class="image-container">
+                    <img src="https://th.bing.com/th/id/OIP.JC0eKo-RfkctyTsemA2UGQHaE6?w=290&h=185&c=7&r=0&o=5&pid=1.7" alt="Laufey">
+                </div>
+            </section>
+
+            <section id="musicas" class="section">
+                <h2>Músicas Populares</h2>
+                <ul>
+                    <li><strong>Let You Go</strong> - Uma balada emocional com letras que exploram a dor de um rompimento.</li>
+                    <li><strong>Street by Street</strong> - Uma canção cativante que mistura elementos de jazz e folk.</li>
+                    <li><strong>Fingers Crossed</strong> - Uma faixa otimista e esperançosa que fala sobre o poder da esperança e do desejo.</li>
+                </ul>
+                <a href="https://open.spotify.com/album/777K2ytcKbDsX0AZ2y8CBS?si=o3dT5wBkQNe1cWaOZmjqug" class="playlist-link" target="_blank">Ouça a Playlist no Spotify</a>
+            </section>
+
+            <section id="contato" class="section">
+                <h2>Contato</h2>
+                <p>Para entrar em contato com o criador do site, não entre em contato! <a href="mailto:contato@laufey.com"></a></p>
+            </section>
+        </div>
+    </div>
+
+   
+</body>
+</html>
